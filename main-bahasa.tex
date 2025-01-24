@@ -1,0 +1,107 @@
+\documentclass[12pt,a4paper]{article}
+
+% Required packages
+\usepackage[left=4cm,right=3cm,top=3cm,bottom=3cm]{geometry} % Margins
+\usepackage{times}               % Times New Roman font
+\usepackage[utf8]{inputenc}      % Input encoding for UTF-8 characters
+\usepackage[T1]{fontenc}         % Font encoding for proper character rendering
+\usepackage[indonesian]{babel}   % Indonesian language support
+\usepackage{setspace}            % For line spacing
+\usepackage{ragged2e}            % For text justification
+\usepackage{tocloft}             % For table of contents formatting
+\usepackage{titlesec}            % For section formatting
+\usepackage{lipsum}              % For lorem ipsum
+\usepackage[hidelinks]{hyperref} % For clickable links in TOC
+\usepackage{graphicx}            % Package for handling graphics/images
+\usepackage{scrlayer-scrpage}    % Package for header and footer customization
+\usepackage[hidelinks]{hyperref} % Package for clickable links without visible borders
+
+% Document settings
+\setstretch{1.15}            % 1.15 line spacing
+% \justifying                  % Justified text alignment
+\input{variables.tex}
+
+% Section formatting
+\addto\captionsindonesian{
+  \renewcommand{\contentsname}{DAFTAR ISI}
+  \renewcommand{\refname}{DAFTAR PUSTAKA}
+  \renewcommand{\abstractname}{ABSTRAK}
+  \renewcommand{\figurename}{Gambar}
+  \renewcommand{\tablename}{Tabel}
+}
+
+% Section formatting
+\titleformat{\section}{\large\normalfont\bfseries}{BAB \thesection.}{1em}{}
+\titleformat{\subsection}{\normalsize\normalfont\bfseries}{\thesubsection.}{1em}{}
+
+% Page numbering and header/footer settings
+\clearpairofpagestyles
+\cfoot[]{}
+
+% For front matter (Table of Contents)
+\newpairofpagestyles{frontmatter}{
+    \KOMAoptions{footsepline=false}
+    \cfoot[]{}
+    \ofoot*{\pagemark}
+}
+
+% For main matter (Chapter 1 onwards)
+\newpairofpagestyles{mainmatter}{
+    \KOMAoptions{headsepline=false}
+    \chead[]{}
+    \ohead*{\pagemark}
+}
+
+% Remove page number from first page
+\begin{document}
+\thispagestyle{empty}
+
+% Cover page
+\begin{center}
+    \makebox[\textwidth]{\includegraphics[width=0.4\textwidth]{img/Logo Isi.png}}\par
+    \vspace{1cm}
+    {\large\bfseries PROPOSAL PROGRAM KREATIVITAS MAHASISWA}\par
+    \vspace{1cm}
+    {\large\bfseries \judul}\par
+    \vspace{1cm}
+
+    {\large\bfseries BIDANG KEGIATAN\\PKM GAGASAN FUTURISTIK TERTULIS}
+    \vspace{2cm}
+
+    Disusun oleh:
+    \vspace{0.5cm}
+
+    \begin{tabular}{lcl}
+        \ketuaNama & \ketuaNIM & Angkatan 2023\\
+        \anggotaSatuNama & \anggotaSatuNIM & Angkatan 2024\\
+        \anggotaDuaNama & \anggotaDuaNIM & Angkatan 2023\\
+        \anggotaTigaNama & \anggotaTigaNIM & Angkatan 2024
+    \end{tabular}
+    \vspace{2cm}
+
+    {\large\bfseries INSTITUT SENI INDONESIA\\YOGYAKARTA\\\the\year}
+\end{center}
+
+\newpage
+
+% Start Roman numerals for front matter
+\pagenumbering{roman}
+\pagestyle{frontmatter}
+
+% Table of contents
+\input{daftar_isi}
+
+% Switch to Arabic numerals for main content
+\pagenumbering{arabic}
+\pagestyle{mainmatter}
+
+% Main content
+\input{pendahuluan}
+\input{gagasan}
+\input{kesimpulan}
+
+% References and appendix
+\input{daftar_pustaka}
+\input{lampiran}
+
+\end{document}

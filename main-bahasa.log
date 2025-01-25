@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 11:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 11:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -592,7 +592,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 306--306
 \T1/ptm/m/n/12 Ka-lang-an Re-ma-ja di
  []
 
-[9] [10] [11]) [12] (./main-bahasa.aux)
+[9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+[]|\T1/ptm/m/n/12 Vincent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+\T1/ptm/m/n/12 Nu-ri-dza-ti
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+[]|\T1/ptm/m/n/12 Elizabeth
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+\T1/ptm/m/n/12 Ardha-yu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+[]|\T1/ptm/m/n/12 Cherish Coo
+ []
+
+[11]) [12] (./main-bahasa.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -601,15 +626,15 @@ Package rerunfilecheck Info: File `main-bahasa.out' has not changed.
 (rerunfilecheck)             Checksum: 8D879E23C107EEE9A6AA8C09E226BB35;2616.
  ) 
 Here is how much of TeX's memory you used:
- 21090 strings out of 474116
- 427539 string characters out of 5743682
+ 21091 strings out of 474116
+ 427555 string characters out of 5743682
  1947187 words of memory out of 5000000
- 43123 multiletter control sequences out of 15000+600000
+ 43124 multiletter control sequences out of 15000+600000
  576898 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,19n,121p,502b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main-bahasa.pdf (14 pages, 220618 bytes).
+Output written on main-bahasa.pdf (14 pages, 221251 bytes).
 PDF statistics:
  171 PDF objects out of 1000 (max. 8388607)
  147 compressed objects within 2 object streams

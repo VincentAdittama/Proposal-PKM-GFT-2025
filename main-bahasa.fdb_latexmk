@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1737777819.9599 "/Users/vincent/Documents/Schools/Lomba/PKM 2025/PKM GFT (Gagasan Futuristik)/Proposal-PKM-GFT-2025/main-bahasa.tex" "main-bahasa.pdf" "main-bahasa" 1737777821.03178 0
-  "/Users/vincent/Documents/Schools/Lomba/PKM 2025/PKM GFT (Gagasan Futuristik)/Proposal-PKM-GFT-2025/main-bahasa.tex" 1737777819.76143 4300 701975e93d81f1b0d335e55908c1c801 ""
+["pdflatex"] 1737778458.47527 "/Users/vincent/Documents/Schools/Lomba/PKM 2025/PKM GFT (Gagasan Futuristik)/Proposal-PKM-GFT-2025/main-bahasa.tex" "main-bahasa.pdf" "main-bahasa" 1737778459.61571 0
+  "/Users/vincent/Documents/Schools/Lomba/PKM 2025/PKM GFT (Gagasan Futuristik)/Proposal-PKM-GFT-2025/main-bahasa.tex" 1737777888.02778 4300 701975e93d81f1b0d335e55908c1c801 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm" 1136768653 4524 6bce29db5bc272ba5f332261583fee9c ""
@@ -132,13 +132,13 @@
   "gagasan.tex" 1737675559.91951 558 69c4cf6c98e975cd0577dba69d1730d3 ""
   "img/Logo Isi.png" 1737677263.87683 209655 1a23f6a30446d80977a244141393a2d8 ""
   "kesimpulan.tex" 1737632544.47286 282 09e9c19a1eb535bdcc196ab9b6fac6ba ""
-  "lampiran.tex" 1737773738.01131 14676 52e155653f100b36a1cfdfdb45110c8a ""
-  "main-bahasa.aux" 1737777820.97764 2321 96c49954fd59b8a1a0a312d262720db5 "pdflatex"
-  "main-bahasa.out" 1737777820.97843 2616 8d879e23c107eee9a6aa8c09e226bb35 "pdflatex"
-  "main-bahasa.tex" 1737777819.76143 4300 701975e93d81f1b0d335e55908c1c801 ""
-  "main-bahasa.toc" 1737777820.97863 1411 083b3e621e88b5081ca44b04f0e283d6 "pdflatex"
+  "lampiran.tex" 1737778458.22063 15541 b1d801827c62b5eae43090e02981135c ""
+  "main-bahasa.aux" 1737778459.55833 2321 96c49954fd59b8a1a0a312d262720db5 "pdflatex"
+  "main-bahasa.out" 1737778459.55947 2616 8d879e23c107eee9a6aa8c09e226bb35 "pdflatex"
+  "main-bahasa.tex" 1737777888.02778 4300 701975e93d81f1b0d335e55908c1c801 ""
+  "main-bahasa.toc" 1737778459.55972 1411 083b3e621e88b5081ca44b04f0e283d6 "pdflatex"
   "pendahuluan.tex" 1737632524.56964 303 c6de3db3f5b237c4ed1d9dfd27bdc271 ""
-  "variables.tex" 1737753404.18738 1899 3cb1e0296352fdca4503086f960b6c82 ""
+  "variables.tex" 1737778334.66718 1946 915ce6b471f7506d8dc36014b150589a ""
   (generated)
   "main-bahasa.aux"
   "main-bahasa.log"

@@ -18,6 +18,8 @@
 \usepackage{tabularx}            % Package for advanced table formatting with auto-adjusting columns
 \usepackage{makecell}            % Package for creating cells with line breaks in tables
 \usepackage[none]{hyphenat}      % Package to disable hyphenation
+\usepackage{xstring}
+\usepackage{pgffor}
 \usepackage{showframe}
 
 % Document settings
@@ -56,8 +58,37 @@
     \ohead*{\pagemark}
 }
 
-% Remove page number from first page
+% Name Shortening to Initials after 3 words
+\newcount\wordcount
+\newcommand{\formatName}[1]{%
+  \wordcount=0
+  \def\result{}%
+  \expandafter\parsewords#1 \relax\relax
+  \result
+}
+
+\def\parsewords#1 #2\relax{%
+  \ifx\relax#1\relax
+    \let\next\relax
+  \else
+    \ifnum\wordcount<3
+      \ifnum\wordcount>0
+        \edef\result{\result\space#1}%
+      \else
+        \edef\result{\result#1}%
+      \fi
+    \else
+      \StrLeft{#1}{1}[\initial]%
+      \edef\result{\result\space\initial.}%
+    \fi
+    \advance\wordcount by 1
+    \def\next{\parsewords#2\relax}%
+  \fi
+  \next
+}
+
 \begin{document}
+% Remove page number from first page
 \thispagestyle{empty}
 
 % Cover page
@@ -76,10 +107,10 @@
     \vspace{0.5cm}
 
     \begin{tabular}{lcl}
-        \ketuaNama & \ketuaNIM & Angkatan 2023\\
-        \anggotaSatuNama & \anggotaSatuNIM & Angkatan 2024\\
-        \anggotaDuaNama & \anggotaDuaNIM & Angkatan 2023\\
-        \anggotaTigaNama & \anggotaTigaNIM & Angkatan 2024
+        \expandafter\formatName\expandafter{\ketuaNama} & \ketuaNIM & Angkatan 2023\\
+        \expandafter\formatName\expandafter{\anggotaSatuNama} & \anggotaSatuNIM & Angkatan 2024\\
+        \expandafter\formatName\expandafter{\anggotaDuaNama} & \anggotaDuaNIM & Angkatan 2023\\
+        \expandafter\formatName\expandafter{\anggotaTigaNama} & \anggotaTigaNIM & Angkatan 2024
     \end{tabular}
     \vspace{2cm}
 

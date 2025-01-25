@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 09:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  25 JAN 2025 09:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -339,6 +339,30 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language90
 LaTeX Info: Redefining \_ on input line 43.
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/eso-pic/showframe.sty
+Package: showframe 2020/10/14 v0.1j showframe (new impl., RN)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen169
+\ESO@tempdimb=\dimen170
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+))
+\SF@tempdima=\dimen171
 ) (./variables.tex) (./main-bahasa.aux)
 \openout1 = `main-bahasa.aux'.
 
@@ -403,25 +427,19 @@ Package hyperref Info: Link coloring OFF on input line 60.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count287
-\scratchdimen=\dimen169
+\scratchdimen=\dimen172
 \scratchbox=\box55
 \nofMPsegments=\count288
 \nofMParguments=\count289
 \everyMPshowfont=\toks25
 \MPscratchCnt=\count290
-\MPscratchDim=\dimen170
+\MPscratchDim=\dimen173
 \MPnumerator=\count291
 \makeMPintoPDFobject=\count292
 \everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (/usr/local/texlive/2024/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
@@ -540,15 +558,15 @@ Package rerunfilecheck Info: File `main-bahasa.out' has not changed.
 (rerunfilecheck)             Checksum: 8D879E23C107EEE9A6AA8C09E226BB35;2616.
  ) 
 Here is how much of TeX's memory you used:
- 15048 strings out of 474116
- 306682 string characters out of 5743682
- 1945187 words of memory out of 5000000
- 37178 multiletter control sequences out of 15000+600000
+ 15611 strings out of 474116
+ 314883 string characters out of 5743682
+ 1947187 words of memory out of 5000000
+ 37729 multiletter control sequences out of 15000+600000
  576898 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,19n,121p,502b,494s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,19n,121p,502b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main-bahasa.pdf (14 pages, 217753 bytes).
+Output written on main-bahasa.pdf (14 pages, 220630 bytes).
 PDF statistics:
  171 PDF objects out of 1000 (max. 8388607)
  147 compressed objects within 2 object streams

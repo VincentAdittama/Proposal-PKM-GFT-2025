@@ -14,3 +14,5 @@
 \contentsline {subsection}{\numberline {3.1}Gagasan yang Diajukan}{3}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Teknik Implementasi}{3}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Prediksi Hasil}{3}{subsection.3.3}%
+\contentsline {section}{DAFTAR PUSTAKA}{4}{subsection.3.3}%
+\contentsline {section}{LAMPIRAN}{5}{subsection.3.3}%

@@ -18,9 +18,10 @@
 \usepackage{tabularx}            % Package for advanced table formatting with auto-adjusting columns
 \usepackage{makecell}            % Package for creating cells with line breaks in tables
 \usepackage[none]{hyphenat}      % Package to disable hyphenation
-\usepackage{xstring}
-\usepackage{pgffor}
-\usepackage{showframe}
+\usepackage{xstring}             % Package for string manipulation and operations
+\usepackage{pgffor}              % Package for foreach loops and iterations
+\usepackage{enumitem}            % Package for customizing lists and enumerations
+% \usepackage{showframe}
 
 % Document settings
 \setstretch{1.15}            % 1.15 line spacing
@@ -136,9 +137,7 @@
 \input{kesimpulan}
 
 % References and appendix
-\addcontentsline{toc}{section}{DAFTAR PUSTAKA}
 \input{daftar_pustaka}
-\addcontentsline{toc}{section}{LAMPIRAN}
 \input{lampiran}
 
 \end{document}
